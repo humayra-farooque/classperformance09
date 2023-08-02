@@ -1,0 +1,38 @@
+#division1{
+    border: 10px dotted black;
+    height: 200px;
+    background-image: url("image/apple.png") ,url("image/book.png"),url("image/images.jpeg");
+    background-size:200px 300px, 200px 300px,200px 300px;
+    background-position:0px 50px, 200px 50px, 400px 50px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: aqua;padding: 20px;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+#division2{
+    border: 10px solid black;
+    background-image: url("image/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: blue;padding: 20px;
+    background-origin: padding-box;
+    background-clip: padding-box;
+}
+#division3{
+    height: 500px;
+    width: 500px;
+    border: 10px solid red;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;margin-bottom: 150px;
+}
+
+#division3 p{ 
+    color: red;
+    border: 5px solid black;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-bottom: 150px
+}
